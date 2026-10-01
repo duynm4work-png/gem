@@ -3,10 +3,10 @@
     "id": 1,
     "date": "2017-04-17",
     "revealDate": "2017-04-18",
-    "title": "Netflix vừa tăng trưởng tốt — nhưng có một chi tiết khiến Phố Wall hơi hụt hẫng.",
+    "title": "Netflix công bố báo cáo Q1/2017 với doanh thu tăng trưởng tốt và dự báo tích cực cho quý sau. Công ty có thêm 5,09 triệu thuê bao mới.",
     "eyebrow": "BÁO CÁO Q1 / 2017",
-    "question": "Kết quả hiện tại hụt kỳ vọng, nhưng triển vọng lại sáng hơn. Bạn đặt niềm tin vào điều gì?",
-    "lesson": "Triển vọng tốt không xóa được mọi lo ngại. Ở cửa sổ một phiên đã chốt, giá vẫn giảm. Đây là kết quả lịch sử, không chứng minh mọi tin hụt kỳ vọng đều dẫn tới giảm giá.",
+    "question": "Kết quả hiện tại thấp hơn kỳ vọng, nhưng triển vọng phía trước khá tích cực. Bạn sẽ mua thêm, giữ lại hay bán bớt?",
+    "lesson": "Triển vọng tích cực chưa đủ để xóa đi lo ngại về kết quả hiện tại. Giá đóng cửa phiên tiếp theo vẫn giảm. Tuy nhiên, kết quả lịch sử này không có nghĩa mọi báo cáo thấp hơn kỳ vọng đều khiến giá giảm.",
     "metrics": [
       [
         "4,95 triệu",
@@ -20,20 +20,18 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-market-cap-april-2017",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Netflix vẫn tăng thêm hàng triệu thuê bao.",
-      "Doanh thu tiếp tục tăng.",
-      "Nhưng số thuê bao mới thấp hơn kỳ vọng.",
-      "Netflix lại đưa ra triển vọng quý sau khá tích cực."
+      "Doanh thu tăng trưởng tốt, còn dự báo cho quý tiếp theo khá tích cực.",
+      "Netflix có thêm 5,09 triệu thuê bao mới, thấp hơn một chút so với mức 5,2 triệu mà các chuyên gia phân tích kỳ vọng."
     ]
   },
   {
     "id": 2,
     "date": "2018-07-16",
     "revealDate": "2018-07-17",
-    "title": "Netflix vẫn tăng hàng triệu thuê bao — nhưng lại khiến nhà đầu tư thất vọng.",
+    "title": "Netflix công bố báo cáo Q2/2018 với hàng triệu thuê bao mới, nhưng kết quả vẫn thấp hơn kỳ vọng.",
     "eyebrow": "BÁO CÁO Q2 / 2018",
-    "question": "Doanh nghiệp vẫn tăng trưởng. Liệu thị trường có đòi hỏi nhiều hơn?",
-    "lesson": "Giá phản ánh kỳ vọng, không chỉ mức tăng trưởng. Netflix vẫn thêm hàng triệu khách hàng nhưng thị trường định giá lại khi kết quả không đạt kỳ vọng.",
+    "question": "Netflix vẫn tăng trưởng, nhưng chưa đạt mức thị trường mong đợi. Bạn sẽ lựa chọn thế nào?",
+    "lesson": "Giá cổ phiếu phản ánh cả kỳ vọng của nhà đầu tư. Dù Netflix vẫn có thêm hàng triệu khách hàng, thị trường vẫn điều chỉnh cách định giá khi kết quả không đạt mức mong đợi.",
     "metrics": [
       [
         "5,2 triệu",
@@ -47,20 +45,20 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-july-2018",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Netflix vẫn tăng trưởng rất nhanh.",
-      "Tăng khoảng 5,2 triệu thuê bao.",
-      "Nhưng thấp hơn khoảng 1 triệu so với kỳ vọng.",
-      "Câu hỏi đặt ra: đây chỉ là một quý hụt hơi hay dấu hiệu tăng trưởng chậm lại?"
+      "Netflix tiếp tục tăng trưởng nhanh.",
+      "Công ty có thêm khoảng 5,2 triệu thuê bao.",
+      "Kết quả này thấp hơn khoảng 1 triệu so với kỳ vọng.",
+      "Chưa rõ đây chỉ là một quý tăng trưởng kém hơn dự kiến hay dấu hiệu cho thấy đà tăng đang chậm lại."
     ]
   },
   {
     "id": 3,
     "date": "2019-07-17",
     "revealDate": "2019-07-18",
-    "title": "Lần đầu tiên sau nhiều năm, Netflix mất thuê bao tại Mỹ.",
+    "title": "Netflix công bố báo cáo Q2/2019 và ghi nhận mất thuê bao tại Mỹ lần đầu tiên sau nhiều năm.",
     "eyebrow": "BÁO CÁO Q2 / 2019",
-    "question": "Lợi nhuận tích cực hay dấu hiệu mất khách hàng: tín hiệu nào quan trọng hơn?",
-    "lesson": "Một KPI có thể lấn át phần còn lại của báo cáo. Thị trường chú ý tới thuê bao và cạnh tranh dù lợi nhuận không gây thất vọng.",
+    "question": "Lợi nhuận vẫn tích cực, nhưng lượng khách hàng lại phát tín hiệu đáng lo. Bạn sẽ ưu tiên thông tin nào?",
+    "lesson": "Một chỉ tiêu quan trọng có thể chi phối cách thị trường nhìn nhận cả báo cáo. Trong trường hợp này, nhà đầu tư chú ý đến thuê bao và áp lực cạnh tranh dù lợi nhuận không gây thất vọng.",
     "metrics": [
       [
         "−126.000",
@@ -74,21 +72,21 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-prices-july-2019",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Mỹ mất khoảng 126.000 thuê bao.",
-      "Toàn cầu chỉ thêm khoảng 2,7 triệu, thấp hơn đáng kể so với dự kiến.",
-      "Disney+ chuẩn bị tham gia cuộc chiến streaming.",
-      "Doanh thu/lợi nhuận không hoàn toàn xấu.",
-      "Nhưng KPI quan trọng nhất lại phát tín hiệu cảnh báo."
+      "Netflix mất khoảng 126.000 thuê bao tại Mỹ.",
+      "Trên toàn cầu, công ty chỉ có thêm khoảng 2,7 triệu thuê bao, thấp hơn đáng kể so với dự kiến.",
+      "Disney+ sắp gia nhập thị trường xem phim trực tuyến.",
+      "Doanh thu và lợi nhuận không hoàn toàn tiêu cực.",
+      "Tuy nhiên, số lượng thuê bao — một chỉ tiêu quan trọng — đang cho thấy dấu hiệu đáng lo ngại."
     ]
   },
   {
     "id": 4,
     "date": "2020-01-21",
     "revealDate": "2020-01-22",
-    "title": "Một cú beat đẹp — nhưng đối thủ đang kéo đến rất đông.",
+    "title": "Netflix công bố báo cáo Q4/2019 với kết quả vượt kỳ vọng, trong khi cạnh tranh trên thị trường ngày càng mạnh.",
     "eyebrow": "BÁO CÁO Q4 / 2019",
-    "question": "Một báo cáo đẹp giữa cuộc chiến cạnh tranh mới. Bạn sẽ làm gì?",
-    "lesson": "Tin tốt không bảo đảm giá tăng ngay. Giá phiên tiếp theo giảm; một kết quả ngắn hạn không thể được giải thích bằng duy nhất một chỉ tiêu.",
+    "question": "Kết quả kinh doanh tích cực đi cùng áp lực từ các đối thủ mới. Bạn sẽ lựa chọn thế nào?",
+    "lesson": "Kết quả kinh doanh tốt không bảo đảm cổ phiếu sẽ tăng giá ngay. Giá đóng cửa phiên tiếp theo vẫn giảm, cho thấy không thể giải thích một biến động ngắn hạn chỉ bằng một chỉ tiêu.",
     "metrics": [
       [
         "8,8 triệu",
@@ -102,19 +100,19 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-january-2020",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Netflix thêm khoảng 8,8 triệu thuê bao, vượt dự báo khoảng 7,6 triệu.",
-      "Revenue và EPS cũng tốt hơn kỳ vọng.",
-      "Nhưng Disney+, Apple TV+ và các đối thủ mới bắt đầu cạnh tranh mạnh."
+      "Netflix có thêm khoảng 8,8 triệu thuê bao, vượt mức dự báo khoảng 7,6 triệu.",
+      "Doanh thu và lợi nhuận trên mỗi cổ phiếu (EPS) cũng cao hơn kỳ vọng.",
+      "Tuy nhiên, Disney+, Apple TV+ và các đối thủ mới bắt đầu tạo sức ép cạnh tranh lớn hơn."
     ]
   },
   {
     "id": 5,
     "date": "2021-01-19",
     "revealDate": "2021-01-20",
-    "title": "Netflix đã vượt mốc 200 triệu thuê bao — nhưng thị trường đã biết đây là người thắng lớn của đại dịch.",
+    "title": "Netflix công bố báo cáo Q4/2020 và vượt mốc 200 triệu thuê bao sau một năm hưởng lợi lớn từ đại dịch.",
     "eyebrow": "BÁO CÁO Q4 / 2020",
-    "question": "Sau một năm hưởng lợi từ đại dịch, còn dư địa cho bất ngờ tích cực không?",
-    "lesson": "Thị trường phản ứng mạnh với thông tin tăng trưởng và dòng tiền. Lo sợ “đã tăng quá nhiều” cũng có thể khiến người chơi bỏ lỡ một diễn biến tích cực.",
+    "question": "Sau một năm tăng trưởng nhờ đại dịch, liệu Netflix còn có thể mang đến bất ngờ tích cực? Bạn sẽ lựa chọn thế nào?",
+    "lesson": "Thị trường phản ứng tích cực với thông tin về tăng trưởng và dòng tiền. Chỉ lo ngại cổ phiếu đã tăng quá nhiều có thể khiến nhà đầu tư bỏ qua những thông tin mới có lợi.",
     "metrics": [
       [
         "200+ triệu",
@@ -128,21 +126,21 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-price-january-2021",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Netflix vượt 200 triệu paid subscribers.",
-      "Q4 thêm khoảng 8,5 triệu thuê bao.",
-      "Dòng tiền tự do cải thiện mạnh.",
-      "Có khả năng giảm nhu cầu vay để tài trợ nội dung.",
-      "Nhưng Netflix đã hưởng lợi rất lớn từ đại dịch."
+      "Netflix vượt mốc 200 triệu thuê bao trả phí.",
+      "Trong Q4, công ty có thêm khoảng 8,5 triệu thuê bao.",
+      "Dòng tiền tự do cải thiện đáng kể.",
+      "Công ty có khả năng giảm nhu cầu vay vốn để tài trợ cho nội dung.",
+      "Tuy nhiên, Netflix đã hưởng lợi rất lớn từ đại dịch trước thời điểm công bố báo cáo."
     ]
   },
   {
     "id": 6,
     "date": "2021-10-19",
     "revealDate": "2021-10-20",
-    "title": "Squid Game đang gây bão toàn cầu — liệu đó có phải là lúc tiếp tục xuống tiền?",
+    "title": "Netflix công bố báo cáo Q3/2021 trong lúc Squid Game trở thành hiện tượng toàn cầu và cổ phiếu đã tăng đáng kể.",
     "eyebrow": "BÁO CÁO Q3 / 2021",
-    "question": "Ai cũng đang nói về Squid Game. Thành công trên màn ảnh có đồng nghĩa với lợi nhuận cổ phiếu?",
-    "lesson": "Đây là cú lật: giá đóng cửa phiên sau giảm dù báo cáo và nội dung rất nổi bật. Sự yêu thích thương hiệu, FOMO và kỳ vọng giá là những thứ khác nhau.",
+    "question": "Squid Game đang rất thành công. Liệu điều đó có đủ để bạn mua thêm cổ phiếu ở thời điểm này?",
+    "lesson": "Giá đóng cửa phiên tiếp theo giảm dù báo cáo kinh doanh và nội dung giải trí đều nổi bật. Yêu thích thương hiệu hoặc sợ bỏ lỡ cơ hội (FOMO) không đồng nghĩa với việc đã đánh giá hợp lý giá cổ phiếu.",
     "metrics": [
       [
         "4,38 triệu",
@@ -157,20 +155,20 @@
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
       "Squid Game trở thành hiện tượng toàn cầu.",
-      "Netflix thêm khoảng 4,38 triệu thuê bao.",
-      "Cao hơn kỳ vọng.",
-      "Outlook tiếp theo cũng khá mạnh.",
-      "Nhưng cổ phiếu đã tăng đáng kể trước đó."
+      "Netflix có thêm khoảng 4,38 triệu thuê bao.",
+      "Số thuê bao mới cao hơn kỳ vọng.",
+      "Dự báo cho giai đoạn tiếp theo cũng khá tích cực.",
+      "Tuy nhiên, giá cổ phiếu đã tăng đáng kể trước khi báo cáo được công bố."
     ]
   },
   {
     "id": 7,
     "date": "2022-04-19",
     "revealDate": "2022-04-20",
-    "title": "Netflix mất thuê bao lần đầu sau hơn một thập kỷ — câu chuyện tăng trưởng đang đổi chiều?",
+    "title": "Netflix công bố báo cáo Q1/2022 và ghi nhận mất thuê bao theo quý lần đầu tiên sau hơn một thập kỷ.",
     "eyebrow": "BÁO CÁO Q1 / 2022",
-    "question": "Mua khi thị trường bi quan, hay bảo vệ tiền trước rủi ro mới?",
-    "lesson": "Cổ phiếu giảm sâu vẫn có thể giảm tiếp. Đây là rủi ro bắt dao rơi. Kết quả âm hơn 35% của phiên sau cho thấy mức độ nhạy cảm khi câu chuyện tăng trưởng thay đổi.",
+    "question": "Bạn sẽ mua khi thị trường bi quan, giữ nguyên danh mục hay bán bớt để giảm rủi ro?",
+    "lesson": "Cổ phiếu đã giảm sâu vẫn có thể tiếp tục giảm. Giá phiên tiếp theo giảm hơn 35%, cho thấy rủi ro khi mua chỉ vì cho rằng giá đã xuống thấp, trong lúc triển vọng tăng trưởng đang thay đổi.",
     "metrics": [
       [
         "−200.000",
@@ -185,20 +183,20 @@
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
       "Netflix mất khoảng 200.000 thuê bao.",
-      "Trong khi trước đó công ty dự báo tăng khoảng 2,5 triệu thuê bao.",
-      "Revenue thấp hơn kỳ vọng.",
-      "Lần đầu tiên sau hơn một thập kỷ Netflix báo mất thuê bao theo quý.",
-      "Cổ phiếu đã giảm mạnh từ vùng đỉnh năm 2021 trước khi báo cáo này được công bố."
+      "Trước đó, công ty dự báo có thêm khoảng 2,5 triệu thuê bao.",
+      "Doanh thu thấp hơn kỳ vọng.",
+      "Đây là lần đầu tiên sau hơn một thập kỷ Netflix ghi nhận mất thuê bao theo quý.",
+      "Trước khi báo cáo được công bố, cổ phiếu đã giảm mạnh so với vùng đỉnh năm 2021."
     ]
   },
   {
     "id": 8,
     "date": "2022-10-18",
     "revealDate": "2022-10-19",
-    "title": "Sau cú sốc 2022, Netflix bất ngờ quay đầu tích cực.",
+    "title": "Netflix công bố báo cáo Q3/2022 với số thuê bao mới vượt kỳ vọng, sau những khó khăn hồi đầu năm.",
     "eyebrow": "BÁO CÁO Q3 / 2022",
-    "question": "Sau cú sập đầu năm, bạn có sẵn sàng thay đổi quan điểm khi dữ liệu thay đổi?",
-    "lesson": "Ám ảnh thua lỗ có thể khiến ta bỏ qua tín hiệu mới. Ở vòng này, thị trường phản ứng tích cực với sự phục hồi; điều đó không bảo đảm mọi câu chuyện hồi phục đều thành công.",
+    "question": "Sau cú giảm mạnh đầu năm, bạn có thay đổi quyết định khi xuất hiện thông tin tích cực mới không?",
+    "lesson": "Lo ngại từ những lần thua lỗ trước có thể khiến nhà đầu tư bỏ qua thông tin mới. Ở vòng này, thị trường phản ứng tích cực với sự phục hồi, nhưng điều đó không có nghĩa mọi trường hợp phục hồi đều sẽ thành công.",
     "metrics": [
       [
         "2,41 triệu",
@@ -212,21 +210,21 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-price-october-2022",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Netflix thêm khoảng 2,41 triệu thuê bao.",
-      "Cao hơn rất nhiều so với khoảng 1 triệu mà thị trường kỳ vọng.",
-      "Chuẩn bị triển khai mô hình có quảng cáo.",
-      "Niềm tin bắt đầu quay trở lại.",
-      "Nhưng chưa rõ đây là hồi phục thật hay chỉ là một cú rebound."
+      "Netflix có thêm khoảng 2,41 triệu thuê bao.",
+      "Kết quả này cao hơn nhiều so với mức khoảng 1 triệu mà thị trường kỳ vọng.",
+      "Công ty chuẩn bị triển khai gói dịch vụ có quảng cáo.",
+      "Niềm tin vào triển vọng của Netflix bắt đầu cải thiện.",
+      "Tuy nhiên, vẫn chưa rõ sự phục hồi có bền vững hay chỉ diễn ra trong ngắn hạn."
     ]
   },
   {
     "id": 9,
     "date": "2024-01-23",
     "revealDate": "2024-01-24",
-    "title": "Netflix vừa có một quý tăng trưởng cực mạnh — nhưng cổ phiếu đã đi được rất xa từ đáy 2022.",
+    "title": "Netflix công bố báo cáo Q4/2023 với tăng trưởng mạnh, trong khi giá cổ phiếu đã phục hồi đáng kể từ đáy 2022.",
     "eyebrow": "BÁO CÁO Q4 / 2023",
-    "question": "Cổ phiếu đã hồi phục từ đáy 2022. Bạn theo đà tăng trưởng hay chốt thành quả ở vòng cuối?",
-    "lesson": "Không ai nhìn thấy tương lai tại thời điểm quyết định. Giá phiên sau tăng, nhưng thắng một vòng không biến chiến lược all-in thành chiến lược luôn đúng.",
+    "question": "Ở vòng cuối, bạn sẽ mua thêm theo đà tăng trưởng, giữ nguyên danh mục hay bán bớt để chốt thành quả?",
+    "lesson": "Tại thời điểm ra quyết định, không ai biết chắc giá sẽ diễn biến thế nào. Giá phiên tiếp theo tăng, nhưng thắng một vòng không chứng minh rằng dồn toàn bộ vốn vào cổ phiếu luôn là lựa chọn đúng.",
     "metrics": [
       [
         "13,1 triệu",
@@ -240,11 +238,11 @@
     "priceSource": "https://www.statmuse.com/money/ask/netflix-stock-price-jan-2024",
     "eventSource": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
     "bullets": [
-      "Thêm khoảng 13,1 triệu thuê bao.",
-      "Vượt xa mức khoảng 7,7 triệu cùng kỳ trước.",
-      "Revenue tăng 12%.",
-      "Paid sharing, pricing và content bắt đầu cho thấy hiệu quả.",
-      "Nhưng cổ phiếu đã phục hồi rất mạnh từ đáy 2022."
+      "Netflix có thêm khoảng 13,1 triệu thuê bao.",
+      "Con số này cao hơn nhiều so với mức khoảng 7,7 triệu của cùng kỳ trước.",
+      "Doanh thu tăng 12%.",
+      "Chính sách thu phí chia sẻ tài khoản, điều chỉnh giá và đầu tư nội dung bắt đầu cho thấy hiệu quả.",
+      "Tuy nhiên, giá cổ phiếu đã phục hồi rất mạnh từ đáy 2022."
     ]
   }
 ]
