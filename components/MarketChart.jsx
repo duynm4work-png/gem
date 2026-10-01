@@ -19,7 +19,7 @@ export default function MarketChart({event, revealed}) {
   const dxy = xy[decisionIndex];
   const past = points.filter(p => p.date <= event.date);
   const change = (event.execution / past[0].close - 1) * 100;
-  const outcomeColor = event.reveal >= event.execution ? '#61dfb0' : '#ff7590';
+  const outcomeColor = event.reveal >= event.execution ? '#70cba1' : '#ef8090';
   const path = xy.map(p => p.x + ',' + p.y).join(' ');
   const ticks = [0, 1, 2, 3].map(i => ({y: top + (bottom - top) * i / 3, value: max - (max - min) * i / 3}));
   return <section className="market-chart" aria-label="Biểu đồ giá hỗ trợ quyết định">
@@ -32,16 +32,16 @@ export default function MarketChart({event, revealed}) {
       <strong>{money(current.close)}</strong><small>{current.date === event.date ? 'Điểm quyết định' :
         current.date > event.date ? 'Kết quả phiên kế tiếp' : 'Giá lịch sử'}</small></div>
     <svg viewBox={'0 0 ' + W + ' ' + H} role="group" aria-label="Đường giá Netflix, USD điều chỉnh chia tách">
-      <defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#5ba6ff" stopOpacity=".19"/><stop offset="100%" stopColor="#5ba6ff" stopOpacity="0"/></linearGradient></defs>
-      {ticks.map((tick, i) => <g key={i}><line x1={left} x2={W-right} y1={tick.y} y2={tick.y} stroke="#303c51" strokeDasharray="3 5"/>
+      <defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#70cba1" stopOpacity=".04"/><stop offset="100%" stopColor="#70cba1" stopOpacity="0"/></linearGradient></defs>
+      {ticks.map((tick, i) => <g key={i}><line x1={left} x2={W-right} y1={tick.y} y2={tick.y} stroke="#2a3732" strokeDasharray="3 5"/>
         <text x={left-10} y={tick.y+5} textAnchor="end" className="axis-label">{money(tick.value)}</text></g>)}
       <polygon points={left + ',' + bottom + ' ' + path + ' ' + xy.at(-1).x + ',' + bottom} fill={'url(#' + id + ')'}/>
-      <polyline className="price-line" points={path} stroke="#65aaff" fill="none" strokeWidth="3" strokeLinejoin="round" strokeLinecap="round"/>
-      {revealed && xy.length > 1 && <line x1={xy.at(-2).x} y1={xy.at(-2).y} x2={xy.at(-1).x} y2={xy.at(-1).y} stroke={outcomeColor} strokeWidth="3.5" className="outcome-line"/>}
-      {dxy && <line x1={dxy.x} x2={dxy.x} y1={top} y2={bottom} stroke="#ecc77b" strokeDasharray="5 6" opacity=".75"/>}
+      <polyline className="price-line" points={path} stroke="#70cba1" fill="none" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round"/>
+      {revealed && xy.length > 1 && <line x1={xy.at(-2).x} y1={xy.at(-2).y} x2={xy.at(-1).x} y2={xy.at(-1).y} stroke={outcomeColor} strokeWidth="3.5" className="outcome-line" pathLength="1"/>}
+      {dxy && <line x1={dxy.x} x2={dxy.x} y1={top} y2={bottom} stroke="#d1b784" strokeDasharray="5 6" opacity=".75"/>}
       {xy.map((p, i) => <g key={points[i].date}>
-        <circle cx={p.x} cy={p.y} r={i === decisionIndex ? 6 : 4} fill={points[i].date > event.date ? outcomeColor : i === decisionIndex ? '#ecc77b' : '#65aaff'} stroke="#141c2b" strokeWidth="2"/>
-        {i === decisionIndex && !revealed && <circle className="chart-halo" cx={p.x} cy={p.y} r="11" fill="none" stroke="#ecc77b" opacity=".45"/>}
+        <circle cx={p.x} cy={p.y} r={i === decisionIndex ? 6 : 4} fill={points[i].date > event.date ? outcomeColor : i === decisionIndex ? '#d1b784' : '#70cba1'} stroke="#101716" strokeWidth="2"/>
+        {i === decisionIndex && !revealed && <circle className="chart-halo" cx={p.x} cy={p.y} r="11" fill="none" stroke="#d1b784" opacity=".45"/>}
         <circle cx={p.x} cy={p.y} r="15" fill="transparent" tabIndex={0} role="button"
           aria-label={date(points[i].date) + ': ' + money(points[i].close)}
           onPointerEnter={() => setSelected(i)} onPointerLeave={() => setSelected(null)}
