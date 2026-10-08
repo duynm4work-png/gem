@@ -80,6 +80,21 @@ test('last-millisecond orders succeed; at deadline orders are late; unconfirmed 
  const late=room();start(late);assert.throws(()=>act(late,player,{action:'decide',round:0,decision:'BUY',quantity:1},61000));
  assert.equal(late.players[0].snapshots[0].decision,'HOLD');
 });
+test('host can skip remaining time only after every player has decided',()=>{
+ const r=makeRoom('ABC234',host);addPlayer(r,'Duy',player);addPlayer(r,'Team B','b');start(r);
+ const skip={action:'skip',round:0,phase:'decision'};
+ assert.throws(()=>act(r,host,skip,2000),/tất cả người chơi đã xác nhận/);
+ assert.equal(r.phase,'decision');
+ act(r,player,{action:'decide',round:0,decision:'BUY',quantity:10},1200);
+ act(r,'b',{action:'decide',round:0,decision:'HOLD',quantity:0},1800);
+ assert.throws(()=>act(r,player,skip,2000),/Chỉ quản trò/);
+ assert.equal(act(r,host,skip,2000),true);
+ assert.equal(r.phase,'reveal');
+ assert.deepEqual(r.players.map(p=>p.snapshots[0].auto),[false,false]);
+ assert.deepEqual(r.players.map(p=>p.snapshots[0].response_ms),[200,800]);
+ assert.equal(r.players[0].snapshots[0].quantity,10);
+ assert.equal(r.players[1].snapshots[0].quantity,0);
+});
 test('validation happens on confirmation; reject cannot consume the only order',()=>{
  const r=room();start(r);
  for(const q of [undefined,0,0.5,100000000])assert.throws(()=>act(r,player,{action:'decide',round:0,decision:'BUY',quantity:q},1100));
