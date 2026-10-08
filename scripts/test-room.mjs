@@ -54,6 +54,10 @@ try {
     assert.equal(state.phase, 'reveal');
     assert.equal(state.event.chart.length, 11);
     assert.equal(state.event.chart.at(-1).close, state.event.reveal);
+    assert.equal(state.revealDeadline-state.serverNow, 15000);
+    assert.equal((await call({action:'next', code, token:host.token, round, phase:'reveal'})).status, 400);
+    clock = state.revealDeadline;
+    state = (await call({action:'state', code, token:host.token})).state;
     const reconnect = (await call({action:'state', code, token:players[0].token})).state;
     assert.equal(reconnect.me.snapshots.length, round + 1);
     assert.equal(reconnect.me.shares, 2000 + (round + 1) * 10);
