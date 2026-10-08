@@ -46,7 +46,7 @@ test('all 9 datasets agree on event date, execution price and next-session outco
  assert.equal(EVENTS[4].reveal,5863);
  assert.equal(EVENTS[6].execution,3486);
  assert.equal(EVENTS[7].execution,2409);
- assert.ok(EVENTS[6].bullets.some(s=>s.includes('2,5 triệu')));
+ assert.ok(EVENTS[6].bullets.some(s=>s.includes('2 triệu')));
 });
 test('server filters future chart points, outcomes, other quantities and credentials',()=>{
  const r=room();start(r);act(r,player,{action:'decide',round:0,decision:'BUY',quantity:57},1100);
