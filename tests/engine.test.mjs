@@ -73,6 +73,24 @@ test('60-second deadline is exact, cannot settle early and default HOLD scores 6
  assert.equal(p.cash,RULES.cash);assert.equal(p.shares,RULES.shares);assert.equal(p.totalMs,60000);
  assert.equal(settle(r,62000),false);assert.equal(p.snapshots.length,1);
 });
+test('round P&L equals the change in total portfolio value and reveal lasts the configured minimum',()=>{
+ const r=room();start(r);
+ act(r,player,{action:'decide',round:0,decision:'BUY',quantity:10},1100);
+ settle(r,61000);
+ const first=r.players[0].snapshots[0];
+ assert.equal(first.portfolio_value_before,RULES.cash+RULES.shares*RULES.reference);
+ assert.equal(first.round_pnl,first.portfolio_value_after-first.portfolio_value_before);
+ assert.equal(view(r,player).me.delta,first.round_pnl);
+ assert.equal(view(r,host,61000).revealDeadline,61000+RULES.revealSeconds*1000);
+ assert.throws(()=>act(r,host,{action:'next',round:0,phase:'reveal'},61000+RULES.revealSeconds*1000-1),/chờ xem kết quả/);
+ assert.equal(act(r,host,{action:'next',round:0,phase:'reveal'},61000+RULES.revealSeconds*1000),true);
+ act(r,player,{action:'decide',round:1,decision:'HOLD',quantity:0},61000+RULES.revealSeconds*1000+100);
+ settle(r,121000+RULES.revealSeconds*1000);
+ const second=r.players[0].snapshots[1];
+ assert.equal(second.portfolio_value_before,first.portfolio_value_after);
+ assert.equal(second.round_pnl,second.portfolio_value_after-first.portfolio_value_after);
+ assert.equal(second.round_pnl,second.gap_pnl+second.event_pnl);
+});
 test('last-millisecond orders succeed; at deadline orders are late; unconfirmed drafts do nothing',()=>{
  const r=room();start(r);
  act(r,player,{action:'decide',round:0,decision:'SELL',quantity:13},60999);
@@ -126,14 +144,15 @@ test('nine rounds match an independent integer oracle including all between-even
   const previous=i?r.players[0].snapshots[i-1].portfolio_value_after:RULES.cash+RULES.shares*RULES.reference;
   assert.equal(snap.portfolio_value_after-previous,snap.gap_pnl+snap.event_pnl);
   assert.equal(snap.quantity,quantity);assert.equal(snap.trade_value,quantity*EVENTS[i].execution);
-  t+=61000;act(r,host,{action:'next',round:i,phase:'reveal'},t);
+  t+=61000+RULES.revealSeconds*1000;act(r,host,{action:'next',round:i,phase:'reveal'},t);
  }
  assert.equal(r.phase,'finished');assert.equal(r.players[0].totalMs,6750);
  assert.equal(view(r,host).replays[0].snapshots.length,9);assert.equal(view(r,player).replays,null);
 });
 test('duplicate or stale host command cannot advance twice',()=>{
  const r=room();start(r);settle(r,61000);
- const cmd={action:'next',round:0,phase:'reveal'};act(r,host,cmd,62000);assert.throws(()=>act(r,host,cmd,62001));assert.equal(r.round,1);
+ const cmd={action:'next',round:0,phase:'reveal'};assert.throws(()=>act(r,host,cmd,62000),/chờ xem kết quả/);
+ act(r,host,cmd,61000+RULES.revealSeconds*1000);assert.throws(()=>act(r,host,cmd,61001+RULES.revealSeconds*1000));assert.equal(r.round,1);
  assert.throws(()=>act(r,player,{action:'decide',round:0,decision:'BUY',quantity:1},63000));
 });
 test('ties use response time then shared rank; scaling preserves original allocation',()=>{
